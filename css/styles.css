@@ -1,0 +1,154 @@
+@font-face {
+        font-family:"orange-juice";
+ src:url(../fonts/orangejuice.tff);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    max-width: 100%;
+}
+
+.header {
+    width: 80%;
+    height: 80px;
+    background-color:  #2d1829;
+    margin: 10px auto;
+
+}
+
+.header ul {
+    color: white;
+    text-align: center;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header ul li {
+    float: left;
+
+    border-left: 2px solid white;
+    text-align: center;
+    position: relative;
+}
+
+.header ul li:last-child {
+    border-left=0px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 21px 43.9px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 34px;
+    transition: 1s;
+    color: white;
+}
+
+.header ul a:hover{
+    background-color: #7f5b79;
+    transform: scale(1.1);
+    border-left: 0px;
+
+}
+
+.header ul li ul {
+    background-color:  #2d1829;
+    position: absolute;
+    width: 248px;
+    top: -9999px;
+}
+
+.header ul li ul li {
+    padding: 0px 0px;
+    border-bottom: 2px solid white;
+    width: 248px;
+    text-align: center;
+    border-right: none;
+    border-left:none;
+}
+
+.header ul li ul li:last-child {
+    border-bottom: none;
+}
+
+.header ul li ul li a {}
+
+.header ul li:hover ul {
+    top: 80px;
+}
+
+.gallery {
+
+    width: 100%;
+
+    min-height: 1180px;
+
+    
+    background: #412638 url(../images/gl.jpeg);
+    background-size:cover;
+    background-attachment: fixed;
+
+  
+    overflow: hidden;
+    opacity: 1;
+    margin-top: 325px;
+}
+
+.content {
+    width: 30%;
+    height: 350px;
+    margin: 20px;
+    float: left;
+    background-color: white;
+    padding: 7px 2px 0px;
+    opacity: .88;
+    transition: 1s;
+}
+
+.pic {
+    width: 97%;
+    height: 279px;
+ margin: 0px auto;
+    
+}
+
+
+.para  p{
+    text-align: center;
+    font-size: 30px;
+    color: #6c5e6a;
+    font-family: 'Pacifico', cursive;
+    margin: 5px auto;
+}
+.content:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    
+}
+.footer{
+    height:45px;
+    overflow: hidden
+}
+.copy{
+    height: 45px;
+    width:40%;
+    float: left;
+    text-align: center;
+    font-family: 'Lobster',cursive;
+    margin: 10px auto;
+    
+}
+.social{
+    width: 60%;
+    height: 45px;
+    overflow: hidden;
+    text-align: center;
+    margin: 15px auto;
+    font-size: 20px;
+    
+    
+}
