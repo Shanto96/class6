@@ -61,6 +61,7 @@ img{
     width: 248px;
     top: -9999px;
       z-index:9999;
+        transition:1s;
 }
 
 .header ul li ul li {
@@ -96,7 +97,7 @@ img{
   
     overflow: hidden;
     opacity: 1;
-    margin-top: 325px;
+  
 }
 
 .content {
