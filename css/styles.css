@@ -60,6 +60,7 @@ img{
     position: absolute;
     width: 248px;
     top: -9999px;
+      z-index:9999;
 }
 
 .header ul li ul li {
